@@ -3,6 +3,7 @@ import Head from "next/head";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/Heading' or its c... Remove this comment to see the full error message
 import Heading from "@/components/Heading";
 import Link from "next/link";
@@ -30,14 +31,17 @@ const Posts = ({
 
 
 
+
     // @ts-expect-error TS(2365): Operator '<' cannot be applied to types 'boolean' ... Remove this comment to see the full error message
     <>
 
 
 
 
+
         // @ts-expect-error TS(2749): 'Head' refers to a value, but is being used as a t... Remove this comment to see the full error message
         <Head>
+
 
 
 
@@ -49,14 +53,17 @@ const Posts = ({
 
 
 
+
         // @ts-expect-error TS(2362): The left-hand side of an arithmetic operation must... Remove this comment to see the full error message
         <Heading text="Posts list:" />
 
 
 
 
+
         // @ts-expect-error TS(2304): Cannot find name 'ul'.
         <ul>
+
 
 
 
@@ -71,8 +78,10 @@ const Posts = ({
 
 
 
+
                 // @ts-expect-error TS(2304): Cannot find name 'li'.
                 id <= 10 ? <li key={id}>
+
 
 
 
