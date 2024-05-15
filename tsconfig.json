@@ -18,6 +18,8 @@
     "include": [
       "next-env.d.ts",
       "src",
+      "**/*.ts",
+      "**/*.tsx"
     ],
     "exclude": ["node_modules"]
   }
