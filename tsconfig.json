@@ -13,13 +13,13 @@
       "resolveJsonModule": true,
       "isolatedModules": true,
       "noEmit": true,
-    //   "jsx": "react-jsx"
+      "jsx": "preserve"
     },
     "include": [
-    //   "next-env.d.ts",
-    //   "src",
-      "**/*.ts",
-      "**/*.tsx"
+      "next-env.d.ts",
+      "src",
+    //   "**/*.ts",
+    //   "**/*.tsx"
     ],
     "exclude": ["node_modules"]
   }
