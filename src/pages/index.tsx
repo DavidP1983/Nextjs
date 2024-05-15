@@ -10,8 +10,10 @@ import Head from "next/head";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/Heading' or its c... Remove this comment to see the full error message
 import Heading from "@/components/Heading";
+
 
 
 
@@ -69,7 +71,7 @@ const Home = ({
 
 
 
-  // @ts-expect-error TS(2304): Cannot find name 'div'.
+
   <div className={styles.wrapper}>
 
 

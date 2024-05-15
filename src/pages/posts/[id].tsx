@@ -10,6 +10,7 @@ import Head from "next/head";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/PostInfo' or its ... Remove this comment to see the full error message
 import PostInfo from "@/components/PostInfo";
 
@@ -63,7 +64,7 @@ const Post = ({
 
 
 
-        // @ts-expect-error TS(2365): Operator '<' cannot be applied to types 'boolean' ... Remove this comment to see the full error message
+
         <>
 
 

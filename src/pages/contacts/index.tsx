@@ -10,6 +10,7 @@ import Head from "next/head";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/Heading' or its c... Remove this comment to see the full error message
 import Heading from "@/components/Heading";
 import Link from "next/link";
@@ -44,7 +45,7 @@ const Contacts = ({
 
 
 
-    // @ts-expect-error TS(2365): Operator '<' cannot be applied to types 'boolean' ... Remove this comment to see the full error message
+
     return <>
 
 
@@ -115,7 +116,7 @@ const Contacts = ({
 
 
 
-                // @ts-expect-error TS(2304): Cannot find name 'li'.
+
                 <li key={id}>
 
 

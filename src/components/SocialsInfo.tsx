@@ -54,7 +54,7 @@ const SocialsInfo = ({
 
 
 
-                // @ts-expect-error TS(2304): Cannot find name 'li'.
+
                 <li key={id}>
 
 
@@ -70,6 +70,7 @@ const SocialsInfo = ({
                     // @ts-expect-error TS(2304): Cannot find name 'a'.
                     <a href={path} target="_blank" rel="noopener noreferrer">
                         {/* <i className={`fab fa-${icon}`} aria-hidden="true" /> */}
+                        // @ts-expect-error TS(2322): Type '{ children: never[]; icon: any; className: s... Remove this comment to see the full error message
                         <FontAwesomeIcon
 
 
@@ -82,7 +83,7 @@ const SocialsInfo = ({
 
 
 
-                            // @ts-expect-error TS(2304): Cannot find name 'icon'.
+
                             icon={fa}
 
 
@@ -95,7 +96,7 @@ const SocialsInfo = ({
 
 
 
-                            // @ts-expect-error TS(2304): Cannot find name 'className'.
+
                             className={`fab fa-${icon}`}
 
 
@@ -108,7 +109,7 @@ const SocialsInfo = ({
 
 
 
-                            // @ts-expect-error TS(2304): Cannot find name 'aria'.
+
                             aria-hidden="true"
 
 
@@ -121,7 +122,7 @@ const SocialsInfo = ({
 
 
 
-                            // @ts-expect-error TS(2552): Cannot find name 'style'. Did you mean 'styles'?
+
                             style={{ color: "white" }} >
                         </FontAwesomeIcon>
                     </a>

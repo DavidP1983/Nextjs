@@ -10,6 +10,7 @@ import Head from "next/head";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/Heading' or its c... Remove this comment to see the full error message
 import Heading from "@/components/Heading";
 import Link from "next/link";
@@ -44,7 +45,7 @@ const Posts = ({
 
 
 
-    // @ts-expect-error TS(2365): Operator '<' cannot be applied to types 'boolean' ... Remove this comment to see the full error message
+
     <>
 
 
@@ -114,7 +115,6 @@ const Posts = ({
             {posts && posts.map(({
                 id,
                 title
-            // @ts-expect-error TS(2364): The left-hand side of an assignment expression mus... Remove this comment to see the full error message
             }: any) => (
 
 
@@ -127,7 +127,7 @@ const Posts = ({
 
 
 
-                // @ts-expect-error TS(2304): Cannot find name 'li'.
+
                 id <= 10 ? <li key={id}>
 
 
