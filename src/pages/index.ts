@@ -9,8 +9,10 @@ import Head from "next/head";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/Heading' or its c... Remove this comment to see the full error message
 import Heading from "@/components/Heading";
+
 
 
 
@@ -34,7 +36,7 @@ import SocialsInfo from "@/components/SocialsInfo";
 
 
 
-// @ts-expect-error TS(2307): Cannot find module '../../styles/Home.module.scss'... Remove this comment to see the full error message
+
 import styles from "../../styles/Home.module.scss";
 
 export const getStaticProps = async () => {
@@ -66,6 +68,7 @@ const Home = ({
 
 
 
+
   // @ts-expect-error TS(2304): Cannot find name 'div'.
   <div className={styles.wrapper}>
 
@@ -78,8 +81,10 @@ const Home = ({
 
 
 
+
     // @ts-expect-error TS(2749): 'Head' refers to a value, but is being used as a t... Remove this comment to see the full error message
     <Head>
+
 
 
 
@@ -103,8 +108,10 @@ const Home = ({
 
 
 
+
     // @ts-expect-error TS(2362): The left-hand side of an arithmetic operation must... Remove this comment to see the full error message
     <Heading text="Next.js Application" />
+
 
 
 
