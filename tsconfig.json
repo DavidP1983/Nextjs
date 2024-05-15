@@ -15,11 +15,6 @@
       "noEmit": true,
       "jsx": "preserve"
     },
-    "include": [
-      "next-env.d.ts",
-      "./src/**/*.ts",
-    //   "**/*.ts",
-    //   "**/*.tsx"
-    ],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
-  }
+  } 
