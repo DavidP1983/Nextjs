@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '../../styles/Socials.module.sc... Remove this comment to see the full error message
 import styles from "../../styles/Socials.module.scss";
 
@@ -22,6 +23,7 @@ const SocialsInfo = ({
         {/* <Head>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.css" />
         </Head> */}
+
 
 
 
@@ -46,8 +48,10 @@ const SocialsInfo = ({
 
 
 
+
                 // @ts-expect-error TS(2304): Cannot find name 'li'.
                 <li key={id}>
+
 
 
 
@@ -68,8 +72,10 @@ const SocialsInfo = ({
 
 
 
+
                             // @ts-expect-error TS(2304): Cannot find name 'icon'.
                             icon={fa}
+
 
 
 
@@ -88,8 +94,10 @@ const SocialsInfo = ({
 
 
 
+
                             // @ts-expect-error TS(2304): Cannot find name 'aria'.
                             aria-hidden="true"
+
 
 
 
