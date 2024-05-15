@@ -8,6 +8,7 @@ import Head from "next/head";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/ContactInfo' or i... Remove this comment to see the full error message
 import ContactInfo from "@/components/ContactInfo";
 
@@ -41,8 +42,10 @@ const Contact = ({
 
 
 
+
     // @ts-expect-error TS(2365): Operator '<' cannot be applied to types 'boolean' ... Remove this comment to see the full error message
     <>
+
 
 
 
@@ -63,9 +66,11 @@ const Contact = ({
 
 
 
+
             // @ts-expect-error TS(2304): Cannot find name 'title'.
             <title>Contact</title>
         </Head>
+
 
 
 
