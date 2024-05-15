@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '../../styles/Socials.module.sc... Remove this comment to see the full error message
 import styles from "../../styles/Socials.module.scss";
 
@@ -18,6 +19,7 @@ const SocialsInfo = ({
         </Head> */}
 
 
+
         // @ts-expect-error TS(2304): Cannot find name 'ul'.
         <ul className={styles.socials}>
             {socials && socials.map(({
@@ -28,8 +30,10 @@ const SocialsInfo = ({
             }: any) => (
 
 
+
                 // @ts-expect-error TS(2304): Cannot find name 'li'.
                 <li key={id}>
+
 
 
                     // @ts-expect-error TS(2304): Cannot find name 'a'.
@@ -38,16 +42,20 @@ const SocialsInfo = ({
                         <FontAwesomeIcon
 
 
+
                             // @ts-expect-error TS(2304): Cannot find name 'icon'.
                             icon={fa}
+
 
 
                             // @ts-expect-error TS(2304): Cannot find name 'className'.
                             className={`fab fa-${icon}`}
 
 
+
                             // @ts-expect-error TS(2304): Cannot find name 'aria'.
                             aria-hidden="true"
+
 
 
                             // @ts-expect-error TS(2552): Cannot find name 'style'. Did you mean 'styles'?

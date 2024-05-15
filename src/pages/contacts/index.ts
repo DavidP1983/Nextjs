@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/Heading' or its c... Remove this comment to see the full error message
 import Heading from "@/components/Heading";
 import Link from "next/link";
@@ -26,12 +27,15 @@ const Contacts = ({
 
 
 
+
     // @ts-expect-error TS(2365): Operator '<' cannot be applied to types 'boolean' ... Remove this comment to see the full error message
     return <>
 
 
+
         // @ts-expect-error TS(2749): 'Head' refers to a value, but is being used as a t... Remove this comment to see the full error message
         <Head>
+
 
 
             // @ts-expect-error TS(2304): Cannot find name 'title'.
@@ -39,8 +43,10 @@ const Contacts = ({
         </Head>
 
 
+
         // @ts-expect-error TS(2552): Cannot find name 'text'. Did you mean 'Text'?
         <Heading text="Contacts list:" />
+
 
 
         // @ts-expect-error TS(2304): Cannot find name 'ul'.
@@ -52,8 +58,10 @@ const Contacts = ({
             }: any) => (
 
 
+
                 // @ts-expect-error TS(2304): Cannot find name 'li'.
                 <li key={id}>
+
 
 
                     // @ts-expect-error TS(2749): 'Link' refers to a value, but is being used as a t... Remove this comment to see the full error message
