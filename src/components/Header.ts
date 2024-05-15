@@ -7,8 +7,10 @@ const Header = () => (
 
 
 
+
     // @ts-expect-error TS(2552): Cannot find name 'header'. Did you mean 'Headers'?
     <header>
+
 
 
 

@@ -8,6 +8,7 @@ import Image from "next/image";
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '../../styles/Navbar.module.scs... Remove this comment to see the full error message
 import styles from "../../styles/Navbar.module.scss";
 
@@ -27,8 +28,10 @@ const Navbar = () => {
 
 
 
+
         // @ts-expect-error TS(2304): Cannot find name 'nav'.
         <nav className={styles.nav}>
+
 
 
 
@@ -43,9 +46,11 @@ const Navbar = () => {
 
 
 
+
                 // @ts-expect-error TS(2749): 'Image' refers to a value, but is being used as a ... Remove this comment to see the full error message
                 <Image src="/nextjs-icon.png" width={60} height={60} alt="nextjs" fetchpriority="true" />
             </div>
+
 
 
 
@@ -65,8 +70,10 @@ const Navbar = () => {
 
 
 
+
                     // @ts-expect-error TS(2749): 'Link' refers to a value, but is being used as a t... Remove this comment to see the full error message
                     <Link
+
 
 
 
@@ -81,8 +88,10 @@ const Navbar = () => {
 
 
 
+
                         // @ts-expect-error TS(2304): Cannot find name 'key'.
                         key={id}
+
 
 
 
