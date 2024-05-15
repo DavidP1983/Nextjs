@@ -1,6 +1,7 @@
 
 
 
+
 // @ts-expect-error TS(2307): Cannot find module '@/components/Layout' or its co... Remove this comment to see the full error message
 import Layout from '@/components/Layout';
 import '../../styles/globals.scss';
@@ -13,13 +14,16 @@ const MyApp = ({
 
 
 
+
     // @ts-expect-error TS(2365): Operator '<' cannot be applied to types 'boolean' ... Remove this comment to see the full error message
     <Layout>
 
 
 
+
       // @ts-expect-error TS(2304): Cannot find name 'main'.
       <main>
+
 
 
 

@@ -10,9 +10,11 @@ const Layout = ({
 
 
 
+
             // @ts-expect-error TS(2749): 'Header' refers to a value, but is being used as a... Remove this comment to see the full error message
             <Header />
             {children}
+
 
 
 
