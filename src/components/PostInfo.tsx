@@ -1,59 +1,24 @@
 import Heading from "./Heading";
+import { IPost } from "../shared/interfaces/types";
 
-const PostInfo = ({
-    post
-}: any) => {
-    const { title, body } = post || {};
-
-    // //Если contact не существует, то возвращаем сообщение
-    if (!post) {
-
-
-
-
-
-
-
-
-
-
-
-
-        return <Heading tag="h3" text="Empty Post" />
-    }
-
-    return (
-        <>
-
-
-
-
-
-
-
-
-
-
-
-            // @ts-expect-error TS(2749): 'Heading' refers to a value, but is being used as ... Remove this comment to see the full error message
-            <Heading tag="h3" text={title} />
-
-
-
-
-
-
-
-
-
-
-
-            // @ts-expect-error TS(2304): Cannot find name 'div'.
-            <div>
-                {body}
-            </div>
-        </>
-    );
+type PostType = {
+  post: IPost
 }
+
+const PostInfo = ({ post }: PostType) => {
+  const { title, body } = post || {};
+
+  // //Если post не существует, то возвращаем сообщение
+  if (!post) {
+    return <Heading tag="h3" text="Empty Post" />;
+  }
+
+  return (
+    <>
+      <Heading tag="h3" text={title} />
+      <div>{body}</div>
+    </>
+  );
+};
 
 export default PostInfo;

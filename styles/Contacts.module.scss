@@ -1,0 +1,59 @@
+.contacts {
+    margin: 5px;
+    padding-left: 39px;
+    li {
+        a {
+            color: black;
+            text-decoration: none;
+            &:hover {
+                color: #8B0000;
+            }
+        }
+    }
+    li::marker {
+        animation: marker-animation 0.5s forwards;
+    }
+    li:nth-child(1)::marker {
+        animation-delay: 0s;
+    }
+    li:nth-child(2)::marker {
+        animation-delay: 0.2s;
+    }
+    li:nth-child(3)::marker {
+        animation-delay: 0.3s;
+    }
+    li:nth-child(4)::marker {
+        animation-delay: 0.4s;
+    }
+    li:nth-child(5)::marker {
+        animation-delay: 0.5s;
+    }
+    li:nth-child(6)::marker {
+        animation-delay: 0.6s;
+    }
+    li:nth-child(7)::marker {
+        animation-delay: 0.7s;
+    }
+    li:nth-child(8)::marker {
+        animation-delay: 0.8s;
+    }
+    li:nth-child(9)::marker {
+        animation-delay: 0.9s;
+    }
+    li:nth-child(10)::marker {
+        animation-delay: 1.0s;
+    }
+
+}
+
+@keyframes marker-animation {
+    from { 
+        font-size: 12px; 
+    } 
+
+    to { 
+        font-size: 30px; 
+        color: white; 
+    } 
+  }
+  

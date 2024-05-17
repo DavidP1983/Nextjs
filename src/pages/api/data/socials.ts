@@ -1,35 +1,35 @@
-import { faYoutube, faInstagram, faLinkedin, faVk, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube, faInstagram, faLinkedin, faGithub, faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 
 export const socials = [
-    {
-        id: 1,
-        icon: 'youtube',
-        path: 'https://youtube.com/YauhenKavalchuk',
-        fa: faYoutube
-    },
-    {
-        id: 2,
-        icon: 'instagram',
-        path: 'https://instagram.com/YauhenKavalchuk',
-        fa: faInstagram
-    },
+    // {
+    //     id: 1,
+    //     icon: 'youtube',
+    //     path: 'https://youtube.com/YauhenKavalchuk',
+    //     fa: faYoutube
+    // },
+    // {
+    //     id: 2,
+    //     icon: 'instagram',
+    //     path: 'https://instagram.com/YauhenKavalchuk',
+    //     fa: faInstagram
+    // },
     {
         id: 3,
         icon: 'linkedin',
-        path: 'https://linkedin.com/in/YauhenKavalchuk',
+        path: 'https://www.linkedin.com/in/david-piruzashvili/',
         fa: faLinkedin
     },
     {
         id: 4,
-        icon: 'vk',
-        path: 'https://vk.com/YauhenKavalchuk',
-        fa: faVk
+        icon: 'github',
+        path: 'https://github.com/DavidP1983',
+        fa: faGithub
     },
     {
         id: 5,
-        icon: 'twitter',
-        path: 'https://twitter.com/YauhenKavalchuk',
-        fa: faTwitter
+        icon: 'telegram',
+        path: 'https://t.me/ILDS_Montreal',
+        fa: faTelegram
     },
 ];

@@ -1,33 +1,9 @@
-import Heading from './Heading';
+import Heading from "./Heading";
 
 const Footer = () => (
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-
-
-
-
-
-
-
-
-
-
-
-        // @ts-expect-error TS(2749): 'Heading' refers to a value, but is being used as ... Remove this comment to see the full error message
-        <Heading tag="h3" text="Footer Created by me" />
-    </footer>
+  <footer>
+    <Heading tag="h1" text="Footer Created by me" />
+  </footer>
 );
 
 export default Footer;

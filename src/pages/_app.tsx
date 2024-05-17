@@ -1,68 +1,23 @@
+import { AppProps } from "next/app";
+import Layout from "../components/Layout";
+import "../../styles/globals.scss";
+import Head from "next/head";
 
-
-
-
-
-
-
-
-
-
-
-
-// @ts-expect-error TS(2307): Cannot find module '@/components/Layout' or its co... Remove this comment to see the full error message
-import Layout from '@/components/Layout';
-import '../../styles/globals.scss';
-
-const MyApp = ({
-  Component,
-  pageProps
-}: any) => {
+const MyApp = ({ Component, pageProps }: AppProps) => {
+  const AnyComponent = Component as any;
   return (
-
-
-
-
-
-
-
-
-
-
-
-
     <Layout>
-
-
-
-
-
-
-
-
-
-
-
-      // @ts-expect-error TS(2304): Cannot find name 'main'.
+      <Head>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+        <link rel="manifest" href="favicon/site.webmanifest" />
+      </Head>
       <main>
-
-
-
-
-
-
-
-
-
-
-
-        // @ts-expect-error TS(2749): 'Component' refers to a value, but is being used a... Remove this comment to see the full error message
-        <Component {...pageProps} />
+        <AnyComponent {...pageProps} />
       </main>
     </Layout>
-
-
-  )
+  );
 };
 
 export default MyApp;
