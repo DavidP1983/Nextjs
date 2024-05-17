@@ -26,6 +26,7 @@ export const getServerSideProps: GetServerSideProps = async (context: GetServerS
     };
 };
 
+
 const Contact = ({ contact }: ContactTypeProps) => (
     <>
         <Head>
