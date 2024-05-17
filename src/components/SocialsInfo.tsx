@@ -6,6 +6,7 @@ import styles from "../../styles/Socials.module.scss";
 
 
 const SocialsInfo = ({ socials }: SocialsPropsType) => {
+  console.log(socials);
   if (!socials) {
     return <h1>null</h1>;
   }
