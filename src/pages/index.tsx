@@ -14,7 +14,7 @@ export type SocialsPropsType = {
 export const getStaticProps: GetStaticProps = async () => {
 
   try {
-    const response = await fetch(`${process.env.API_HOST}/socialsApi`);
+    const response = await fetch(`${process.env.API_HOST}/socialsApi/`);
     const data = await response.json();
 
     if (!data) {
