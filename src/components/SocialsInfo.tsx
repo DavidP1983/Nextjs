@@ -7,7 +7,7 @@ import styles from "../../styles/Socials.module.scss";
 
 const SocialsInfo = ({ socials }: SocialsPropsType) => {
   if (!socials) {
-    return null;
+    return <h1>null</h1>;
   }
 
   return (
