@@ -5,10 +5,11 @@ as Next.js, SSR, SSG
 
 [![My Skills](https://skillicons.dev/icons?i=next)](https://skillicons.dev)
 
-[![image](https://github.com/DavidP1983/Nextjs/assets/40338951/9aac06fd-8566-410a-8cdc-5c62ecb2459)](https://nextjs-one-beta-89.vercel.app/)
+[![image](https://github.com/DavidP1983/Nextjs/assets/40338951/61cce68b-e344-4da0-ad23-5cc6f22d37fc)](https://nextjs-one-beta-89.vercel.app/)
 
 > Landig Page
 -------
+
 
 
 
